@@ -21,7 +21,7 @@ This is a simple web application for building resumes. Users can input their per
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/resume-builder.git
+git clone https://github.com/Agent-coder48/resume-builder.git
 cd resume-builder
 
 
