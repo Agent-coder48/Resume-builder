@@ -1,12 +1,9 @@
 from flask import Flask, render_template, request, redirect, url_for
 import pdfkit
-
 app = Flask(__name__)
-
 @app.route('/')
 def index():
     return render_template('index.html')
-
 @app.route('/resume', methods=['POST'])
 def generate_resume():
     name = request.form['name']
